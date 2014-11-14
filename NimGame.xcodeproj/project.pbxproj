@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0002F1D81A15F1A100586EAF /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0002F1D71A15F1A100586EAF /* Sprites.atlas */; };
+		0002F1DA1A15F30E00586EAF /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0002F1D91A15F30E00586EAF /* Cookie.swift */; };
 		008CAD421A1578F100F6928E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CAD411A1578F100F6928E /* AppDelegate.swift */; };
-		008CAD441A1578F200F6928E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 008CAD431A1578F200F6928E /* GameScene.sks */; };
 		008CAD461A1578F200F6928E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CAD451A1578F200F6928E /* GameScene.swift */; };
 		008CAD481A1578F200F6928E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CAD471A1578F200F6928E /* GameViewController.swift */; };
 		008CAD4B1A1578F300F6928E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008CAD491A1578F300F6928E /* Main.storyboard */; };
@@ -28,10 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0002F1D71A15F1A100586EAF /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		0002F1D91A15F30E00586EAF /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 		008CAD3C1A1578EF00F6928E /* NimGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008CAD401A1578F100F6928E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		008CAD411A1578F100F6928E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		008CAD431A1578F200F6928E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		008CAD451A1578F200F6928E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		008CAD471A1578F200F6928E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		008CAD4A1A1578F300F6928E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,11 +84,12 @@
 			isa = PBXGroup;
 			children = (
 				008CAD411A1578F100F6928E /* AppDelegate.swift */,
-				008CAD431A1578F200F6928E /* GameScene.sks */,
 				008CAD451A1578F200F6928E /* GameScene.swift */,
+				0002F1D91A15F30E00586EAF /* Cookie.swift */,
 				008CAD471A1578F200F6928E /* GameViewController.swift */,
 				008CAD491A1578F300F6928E /* Main.storyboard */,
 				008CAD4C1A1578F300F6928E /* Images.xcassets */,
+				0002F1D71A15F1A100586EAF /* Sprites.atlas */,
 				008CAD4E1A1578F400F6928E /* LaunchScreen.xib */,
 				008CAD3F1A1578F100F6928E /* Supporting Files */,
 			);
@@ -200,8 +203,8 @@
 			files = (
 				008CAD501A1578F400F6928E /* LaunchScreen.xib in Resources */,
 				008CAD4D1A1578F400F6928E /* Images.xcassets in Resources */,
-				008CAD441A1578F200F6928E /* GameScene.sks in Resources */,
 				008CAD4B1A1578F300F6928E /* Main.storyboard in Resources */,
+				0002F1D81A15F1A100586EAF /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				008CAD461A1578F200F6928E /* GameScene.swift in Sources */,
+				0002F1DA1A15F30E00586EAF /* Cookie.swift in Sources */,
 				008CAD481A1578F200F6928E /* GameViewController.swift in Sources */,
 				008CAD421A1578F100F6928E /* AppDelegate.swift in Sources */,
 			);
@@ -413,6 +417,7 @@
 				008CAD611A15790100F6928E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		008CAD621A15790100F6928E /* Build configuration list for PBXNativeTarget "NimGameTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				008CAD641A15790100F6928E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
