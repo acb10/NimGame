@@ -1,4 +1,4 @@
 NimGame
 =======
 
-iOS version of the classic Nim game from your average math class.
+iOS version of the classic Nim game.
