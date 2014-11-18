@@ -31,9 +31,13 @@ enum CookieType: Int, Printable {
     static func random() -> CookieType {
         return CookieType(rawValue: Int(arc4random_uniform(6)) + 1)!
     }
+    
+    var description: String {
+        return spriteName
+    }
 }
 
-class Cookie: Printable {
+class Cookie: Printable, Hashable {
     var column: Int
     var row: Int
     let cookieType: CookieType
@@ -44,7 +48,16 @@ class Cookie: Printable {
         self.row = row
         self.cookieType = cookieType
     }
+    
     var description: String {
         return "type:\(cookieType) square:(\(column),\(row))"
     }
+    
+    var hashValue: Int {
+        return row*10 + column
+    }
+}
+
+func ==(lhs: Cookie, rhs: Cookie) -> Bool {
+    return lhs.column == rhs.column && lhs.row == rhs.row
 }

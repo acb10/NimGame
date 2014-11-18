@@ -16,6 +16,16 @@
 		008CAD4D1A1578F400F6928E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008CAD4C1A1578F300F6928E /* Images.xcassets */; };
 		008CAD501A1578F400F6928E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008CAD4E1A1578F400F6928E /* LaunchScreen.xib */; };
 		008CAD5C1A15790100F6928E /* NimGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CAD5B1A15790100F6928E /* NimGameTests.swift */; };
+		00A898F31A1B0FFC002B1B8C /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A898F21A1B0FFB002B1B8C /* Array2D.swift */; };
+		00A898F51A1B18FB002B1B8C /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A898F41A1B18FB002B1B8C /* Set.swift */; };
+		00A898F71A1B1AB0002B1B8C /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A898F61A1B1AB0002B1B8C /* Level.swift */; };
+		00A898FE1A1B3519002B1B8C /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A898F91A1B3519002B1B8C /* Level_0.json */; };
+		00A898FF1A1B3519002B1B8C /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A898FA1A1B3519002B1B8C /* Level_1.json */; };
+		00A899001A1B3519002B1B8C /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A898FB1A1B3519002B1B8C /* Level_2.json */; };
+		00A899011A1B3519002B1B8C /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A898FC1A1B3519002B1B8C /* Level_3.json */; };
+		00A899021A1B3519002B1B8C /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A898FD1A1B3519002B1B8C /* Level_4.json */; };
+		00A899041A1B3566002B1B8C /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A899031A1B3566002B1B8C /* Tile.swift */; };
+		00A899061A1B362D002B1B8C /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A899051A1B362D002B1B8C /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +52,16 @@
 		008CAD551A1578FF00F6928E /* NimGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		008CAD5A1A15790000F6928E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		008CAD5B1A15790100F6928E /* NimGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimGameTests.swift; sourceTree = "<group>"; };
+		00A898F21A1B0FFB002B1B8C /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		00A898F41A1B18FB002B1B8C /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		00A898F61A1B1AB0002B1B8C /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		00A898F91A1B3519002B1B8C /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
+		00A898FA1A1B3519002B1B8C /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
+		00A898FB1A1B3519002B1B8C /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
+		00A898FC1A1B3519002B1B8C /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
+		00A898FD1A1B3519002B1B8C /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
+		00A899031A1B3566002B1B8C /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		00A899051A1B362D002B1B8C /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +106,13 @@
 				008CAD411A1578F100F6928E /* AppDelegate.swift */,
 				008CAD451A1578F200F6928E /* GameScene.swift */,
 				0002F1D91A15F30E00586EAF /* Cookie.swift */,
+				00A898F21A1B0FFB002B1B8C /* Array2D.swift */,
+				00A898F41A1B18FB002B1B8C /* Set.swift */,
+				00A898F61A1B1AB0002B1B8C /* Level.swift */,
+				00A899051A1B362D002B1B8C /* Extentions.swift */,
 				008CAD471A1578F200F6928E /* GameViewController.swift */,
+				00A899031A1B3566002B1B8C /* Tile.swift */,
+				00A898F81A1B3519002B1B8C /* Levels */,
 				008CAD491A1578F300F6928E /* Main.storyboard */,
 				008CAD4C1A1578F300F6928E /* Images.xcassets */,
 				0002F1D71A15F1A100586EAF /* Sprites.atlas */,
@@ -119,6 +145,18 @@
 				008CAD5A1A15790000F6928E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A898F81A1B3519002B1B8C /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				00A898F91A1B3519002B1B8C /* Level_0.json */,
+				00A898FA1A1B3519002B1B8C /* Level_1.json */,
+				00A898FB1A1B3519002B1B8C /* Level_2.json */,
+				00A898FC1A1B3519002B1B8C /* Level_3.json */,
+				00A898FD1A1B3519002B1B8C /* Level_4.json */,
+			);
+			path = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +240,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				008CAD501A1578F400F6928E /* LaunchScreen.xib in Resources */,
+				00A899021A1B3519002B1B8C /* Level_4.json in Resources */,
+				00A899001A1B3519002B1B8C /* Level_2.json in Resources */,
+				00A898FE1A1B3519002B1B8C /* Level_0.json in Resources */,
 				008CAD4D1A1578F400F6928E /* Images.xcassets in Resources */,
 				008CAD4B1A1578F300F6928E /* Main.storyboard in Resources */,
+				00A898FF1A1B3519002B1B8C /* Level_1.json in Resources */,
+				00A899011A1B3519002B1B8C /* Level_3.json in Resources */,
 				0002F1D81A15F1A100586EAF /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,9 +266,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				008CAD461A1578F200F6928E /* GameScene.swift in Sources */,
+				00A898F71A1B1AB0002B1B8C /* Level.swift in Sources */,
 				0002F1DA1A15F30E00586EAF /* Cookie.swift in Sources */,
+				00A899041A1B3566002B1B8C /* Tile.swift in Sources */,
+				00A898F51A1B18FB002B1B8C /* Set.swift in Sources */,
 				008CAD481A1578F200F6928E /* GameViewController.swift in Sources */,
 				008CAD421A1578F100F6928E /* AppDelegate.swift in Sources */,
+				00A898F31A1B0FFC002B1B8C /* Array2D.swift in Sources */,
+				00A899061A1B362D002B1B8C /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
