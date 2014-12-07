@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0002F1D81A15F1A100586EAF /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0002F1D71A15F1A100586EAF /* Sprites.atlas */; };
 		0002F1DA1A15F30E00586EAF /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0002F1D91A15F30E00586EAF /* Cookie.swift */; };
+		001634051A1FFE1800CBC5F9 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001634041A1FFE1700CBC5F9 /* Chain.swift */; };
+		003B6FBC1A24673A00976788 /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 003B6FBB1A24673900976788 /* Grid.atlas */; };
 		008CAD421A1578F100F6928E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CAD411A1578F100F6928E /* AppDelegate.swift */; };
 		008CAD461A1578F200F6928E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CAD451A1578F200F6928E /* GameScene.swift */; };
 		008CAD481A1578F200F6928E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CAD471A1578F200F6928E /* GameViewController.swift */; };
@@ -26,6 +28,14 @@
 		00A899021A1B3519002B1B8C /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A898FD1A1B3519002B1B8C /* Level_4.json */; };
 		00A899041A1B3566002B1B8C /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A899031A1B3566002B1B8C /* Tile.swift */; };
 		00A899061A1B362D002B1B8C /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A899051A1B362D002B1B8C /* Extentions.swift */; };
+		00AE85F71A1CA62800E41795 /* Chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00AE85F11A1CA62800E41795 /* Chomp.wav */; };
+		00AE85F81A1CA62800E41795 /* Drip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00AE85F21A1CA62800E41795 /* Drip.wav */; };
+		00AE85F91A1CA62800E41795 /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00AE85F31A1CA62800E41795 /* Error.wav */; };
+		00AE85FA1A1CA62800E41795 /* Ka-Ching.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00AE85F41A1CA62800E41795 /* Ka-Ching.wav */; };
+		00AE85FB1A1CA62800E41795 /* Mining by Moonlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00AE85F51A1CA62800E41795 /* Mining by Moonlight.mp3 */; };
+		00AE85FC1A1CA62800E41795 /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00AE85F61A1CA62800E41795 /* Scrape.wav */; };
+		00C182D71A1C0A7C00CB8113 /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C182D61A1C0A7C00CB8113 /* Swap.swift */; };
+		00FEFC121A2D95830023E016 /* Level_5.json in Resources */ = {isa = PBXBuildFile; fileRef = 00FEFC111A2D95830023E016 /* Level_5.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +51,8 @@
 /* Begin PBXFileReference section */
 		0002F1D71A15F1A100586EAF /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		0002F1D91A15F30E00586EAF /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		001634041A1FFE1700CBC5F9 /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		003B6FBB1A24673900976788 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 		008CAD3C1A1578EF00F6928E /* NimGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008CAD401A1578F100F6928E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		008CAD411A1578F100F6928E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +74,14 @@
 		00A898FD1A1B3519002B1B8C /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
 		00A899031A1B3566002B1B8C /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		00A899051A1B362D002B1B8C /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		00AE85F11A1CA62800E41795 /* Chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chomp.wav; sourceTree = "<group>"; };
+		00AE85F21A1CA62800E41795 /* Drip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Drip.wav; sourceTree = "<group>"; };
+		00AE85F31A1CA62800E41795 /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Error.wav; sourceTree = "<group>"; };
+		00AE85F41A1CA62800E41795 /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ka-Ching.wav"; sourceTree = "<group>"; };
+		00AE85F51A1CA62800E41795 /* Mining by Moonlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mining by Moonlight.mp3"; sourceTree = "<group>"; };
+		00AE85F61A1CA62800E41795 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scrape.wav; sourceTree = "<group>"; };
+		00C182D61A1C0A7C00CB8113 /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
+		00FEFC111A2D95830023E016 /* Level_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_5.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,16 +125,20 @@
 			children = (
 				008CAD411A1578F100F6928E /* AppDelegate.swift */,
 				008CAD451A1578F200F6928E /* GameScene.swift */,
+				001634041A1FFE1700CBC5F9 /* Chain.swift */,
+				00C182D61A1C0A7C00CB8113 /* Swap.swift */,
 				0002F1D91A15F30E00586EAF /* Cookie.swift */,
+				00A899031A1B3566002B1B8C /* Tile.swift */,
 				00A898F21A1B0FFB002B1B8C /* Array2D.swift */,
 				00A898F41A1B18FB002B1B8C /* Set.swift */,
 				00A898F61A1B1AB0002B1B8C /* Level.swift */,
 				00A899051A1B362D002B1B8C /* Extentions.swift */,
 				008CAD471A1578F200F6928E /* GameViewController.swift */,
-				00A899031A1B3566002B1B8C /* Tile.swift */,
-				00A898F81A1B3519002B1B8C /* Levels */,
 				008CAD491A1578F300F6928E /* Main.storyboard */,
+				00A898F81A1B3519002B1B8C /* Levels */,
 				008CAD4C1A1578F300F6928E /* Images.xcassets */,
+				00AE85F01A1CA62800E41795 /* Sounds */,
+				003B6FBB1A24673900976788 /* Grid.atlas */,
 				0002F1D71A15F1A100586EAF /* Sprites.atlas */,
 				008CAD4E1A1578F400F6928E /* LaunchScreen.xib */,
 				008CAD3F1A1578F100F6928E /* Supporting Files */,
@@ -155,8 +179,22 @@
 				00A898FB1A1B3519002B1B8C /* Level_2.json */,
 				00A898FC1A1B3519002B1B8C /* Level_3.json */,
 				00A898FD1A1B3519002B1B8C /* Level_4.json */,
+				00FEFC111A2D95830023E016 /* Level_5.json */,
 			);
 			path = Levels;
+			sourceTree = "<group>";
+		};
+		00AE85F01A1CA62800E41795 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				00AE85F11A1CA62800E41795 /* Chomp.wav */,
+				00AE85F21A1CA62800E41795 /* Drip.wav */,
+				00AE85F31A1CA62800E41795 /* Error.wav */,
+				00AE85F41A1CA62800E41795 /* Ka-Ching.wav */,
+				00AE85F51A1CA62800E41795 /* Mining by Moonlight.mp3 */,
+				00AE85F61A1CA62800E41795 /* Scrape.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +246,7 @@
 				TargetAttributes = {
 					008CAD3B1A1578EF00F6928E = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 2JUG49NVQV;
 					};
 					008CAD541A1578FF00F6928E = {
 						CreatedOnToolsVersion = 6.1;
@@ -240,11 +279,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				008CAD501A1578F400F6928E /* LaunchScreen.xib in Resources */,
+				00AE85F81A1CA62800E41795 /* Drip.wav in Resources */,
 				00A899021A1B3519002B1B8C /* Level_4.json in Resources */,
+				003B6FBC1A24673A00976788 /* Grid.atlas in Resources */,
+				00AE85F91A1CA62800E41795 /* Error.wav in Resources */,
 				00A899001A1B3519002B1B8C /* Level_2.json in Resources */,
+				00AE85FC1A1CA62800E41795 /* Scrape.wav in Resources */,
 				00A898FE1A1B3519002B1B8C /* Level_0.json in Resources */,
+				00AE85F71A1CA62800E41795 /* Chomp.wav in Resources */,
+				00AE85FB1A1CA62800E41795 /* Mining by Moonlight.mp3 in Resources */,
 				008CAD4D1A1578F400F6928E /* Images.xcassets in Resources */,
+				00AE85FA1A1CA62800E41795 /* Ka-Ching.wav in Resources */,
 				008CAD4B1A1578F300F6928E /* Main.storyboard in Resources */,
+				00FEFC121A2D95830023E016 /* Level_5.json in Resources */,
 				00A898FF1A1B3519002B1B8C /* Level_1.json in Resources */,
 				00A899011A1B3519002B1B8C /* Level_3.json in Resources */,
 				0002F1D81A15F1A100586EAF /* Sprites.atlas in Resources */,
@@ -268,7 +315,9 @@
 				008CAD461A1578F200F6928E /* GameScene.swift in Sources */,
 				00A898F71A1B1AB0002B1B8C /* Level.swift in Sources */,
 				0002F1DA1A15F30E00586EAF /* Cookie.swift in Sources */,
+				001634051A1FFE1800CBC5F9 /* Chain.swift in Sources */,
 				00A899041A1B3566002B1B8C /* Tile.swift in Sources */,
+				00C182D71A1C0A7C00CB8113 /* Swap.swift in Sources */,
 				00A898F51A1B18FB002B1B8C /* Set.swift in Sources */,
 				008CAD481A1578F200F6928E /* GameViewController.swift in Sources */,
 				008CAD421A1578F100F6928E /* AppDelegate.swift in Sources */,
@@ -396,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NimGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NimGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
